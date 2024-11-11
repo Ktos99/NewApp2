@@ -1,0 +1,70 @@
+
+
+.margin-bottom_new_mod {
+    margin-bottom: 5px
+}
+
+.margins-size{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.errors {
+    padding-bottom: 20px;
+    color: red
+}
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.back-color-register {
+    background-color: #5a5454;
+}
+
+.text-color {
+    color: #ddd;
+}
+
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+
+.con-opt_register {
+    margin-top: 100px;
+}
+
+.card-register {
+    margin-bottom: 150px;
+    border: 0;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    letter-spacing: .5px;
+    border-radius: 8px;
+    -webkit-box-shadow: 1px 5px 24px 0 rgba(68, 102, 242, .05);
+    box-shadow: 1px 5px 24px 0 rgba(68, 102, 242, .05)
+}

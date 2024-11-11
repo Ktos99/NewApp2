@@ -1,0 +1,332 @@
+.margins-size_my_account{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+   
+.colored-text {
+    color: #d0d0d0
+}
+   
+   .margin-top_my_account {
+        margin-top: 50px;
+    }
+    
+    .color_text_my_account {
+        color: #ddd
+    }
+
+    .background_color_text_my_account {
+        background-color: #5a5454
+    }
+    
+    
+    .wrapper-max {
+    max-width:1170px;
+    margin:0 auto !important
+   }
+
+   .account__user {
+    margin-bottom:10px;
+    line-height:24px
+   }
+   .account__user p {
+    font-family:"Roboto",sans-serif;
+    font-size:16px;
+    float:left
+   }
+
+   .account__user_g p {
+    font-family:"Roboto",sans-serif;
+    font-size:16px;
+    float:right
+   }
+
+   .account__user_new p {
+    font-family:"Roboto",sans-serif;
+    font-size:16px;
+    float:right
+   }
+
+   .account__user span {
+    padding-right:10px;
+    font-weight:700
+   }
+
+   .account__user_g span {
+    padding-right:10px;
+    font-weight:700
+   }
+
+   .account__user_new span {
+    padding-right:10px;
+    font-weight:700
+   }
+   .account__user span:first-of-type {
+    color:#079eda
+   }
+
+   .account__user_g span:first-of-type {
+    color:#079eda
+   }
+
+
+   .account__user_new span:first-of-type {
+    color:#079eda
+   }
+
+   .account__user a {
+    font-weight:700;
+    padding-left:10px
+   }
+
+   .account__menu-box {
+    background-color:#fff;
+    border:none;
+    margin:15px 0
+   }
+
+   .pad-left {
+    padding-left:0 !important
+   }
+   .pad-right {
+    padding-right:0 !important
+   }
+   .pad-left-5 {
+    padding-left:5px !important
+   }
+   .pad-right-5 {
+    padding-right:5px !important
+   }
+   .pad-left-10 {
+    padding-left:10px !important
+   }
+   .pad-right-10 {
+    padding-right:10px !important
+   }
+   .pad-left-25 {
+    padding-left:25px !important
+   }
+   .pad-right-25 {
+    padding-right:25px !important
+   }
+   .account__menu {
+    text-align:right;
+    font-family:"Roboto",sans-serif
+   }
+   .account__menu li.active a {
+    color:#235789 !important;
+    font-weight:700;
+    background-color:#f7f6f4 !important
+   }
+   .account__menu-box {
+    background-color:#fff;
+    border:none;
+    margin:15px 0
+   }
+
+   .tab-content>.tab-pane {
+    display:none
+   }
+   .tab-content>.active {
+    display:block
+   }
+   .account__shelf .shelf-right {
+    margin-top:20px;
+    border-top:1px solid #f7f6f6
+   }
+   .account__shelf .shelf-right__content {
+    text-align:center;
+    padding:20px 0;
+    vertical-align:middle
+   }
+
+   .buy-b__book {
+    margin-left:15px;
+    margin-right:15px;
+    min-height: 210px;
+    max-height: 480px;
+    width: 1170px
+   }
+   .buy-b__discount {
+    position:absolute;
+    top:10px;
+    right:-7px
+   }
+   .buy-b__title {
+    text-align:center;
+    margin-bottom:15px;
+    font-size:16px;
+    line-height:25px
+   }
+   .buy-b__title--price {
+    margin-bottom:10px
+   }
+   .buy-b__content {
+    padding-top:20px
+   }
+   .buy-b__content--height {
+    min-height:auto
+   }
+   .buy-b__text {
+    min-height:140px;
+    position:relative
+   }
+   .buy-b__inf {
+    font-family:"Roboto",sans-serif;
+    font-size:14px;
+    line-height:18px
+   }
+   .buy-b__inf:last-of-type {
+    margin-bottom:10px
+   }
+   .buy-b__inf--t {
+    font-size:18px;
+    line-height:22px;
+    font-weight:500
+   }
+   .buy-b__inf a {
+    color:#252525
+   }
+   .buy-b__extra {
+    margin-top:10px;
+    margin-bottom:50px
+   }
+   .buy-b__extra img {
+    width:19px;
+    vertical-align:sub;
+    margin-right:5px
+   }
+   .buy-b__extra-title {
+    font-size:15px
+   }
+   .pad-left-d {
+    padding-left:0 !important
+   }
+   .pad-right-d {
+    padding-right:0 !important
+   }
+   .pad-left-d-5 {
+    padding-left:5px !important
+   }
+   .pad-right-d-5 {
+    padding-right:5px !important
+   }
+   .pad-left-d-10 {
+    padding-left:10px !important
+   }
+   .pad-right-d-10 {
+    padding-right:10px !important
+   }
+   .pad-left-d-15 {
+    padding-left:15px !important
+   }
+   .pad-right-d-15 {
+    padding-right:15px !important
+   }
+   .pad-left-d-20 {
+    padding-left:20px !important
+   }
+   .pad-right-d-20 {
+    padding-right:20px !important
+   }
+   .pad-left-d-30 {
+    padding-left:30px !important
+   }
+   .pad-right-d-30 {
+    padding-right:30px !important
+   }
+   .img-responsive {
+    display:block;
+    max-width:80%;
+    height:auto
+    }
+    .buy-b__cover {
+     min-width:100px
+    }
+    .buy-b__text {
+    min-height:145px
+    }
+    .buy-form form {
+    max-width:80%;
+    margin-left:auto;
+    margin-right:auto
+     }
+     .account__button {
+        margin-top: 10px;
+        margin-right: 0;
+        float: right;
+        width: 140px;
+    }
+
+    .marg-op_new1 {
+        margin-top: 200px;
+    }
+
+    .align-right_opt {
+        text-align: right;
+    }
+    
+    .button-add_opt{
+        width: 140px
+    }
+
+    .divider-text {
+        position: relative;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .divider-text span {
+        padding: 7px;
+        font-size: 12px;
+        position: relative;   
+        z-index: 2;
+    }
+    .divider-text:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+        top: 55%;
+        left: 0;
+        z-index: 1;
+    }
+    
+    .btn-facebook {
+        background-color: #405D9D;
+        color: #fff;
+    }
+    .btn-twitter {
+        background-color: #42AEEC;
+        color: #fff;
+    }
+    
+    .con-opt {
+        margin-top: 10px;
+    }
+
+    .card-account {
+        margin-bottom: 150px;
+        border: 0;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+        letter-spacing: .5px;
+        border-radius: 8px;
+        -webkit-box-shadow: 1px 5px 24px 0 rgba(68, 102, 242, .05);
+        box-shadow: 1px 5px 24px 0 rgba(68, 102, 242, .05)
+    }
+
+    .history-margins_top_bottom {
+        margin-top: 150px;
+        margin-bottom: 150px
+    }
+
+    .buy-b_book--shopcart {
+        margin-left:15px;
+        margin-right:15px;
+        width: 1170px
+       }
+
+     .text-color-myaccount {
+         color:#ddd
+     }

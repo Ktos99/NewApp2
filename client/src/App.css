@@ -1,0 +1,433 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background: #5a5454;
+}
+
+#top {
+  position: absolute;
+  top: 0;
+}
+
+.navbar
+{
+    background-color: #202a2f;
+}
+.navbar .brand-navbar img:hover
+{
+    opacity: 0.7;
+}
+.navbar ul
+{
+padding: 0px 30px 0px 0px;
+}
+.navbar ul li a{
+    color: white;
+    margin: 10px 0px 0px 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.navbar ul li a .fas{
+    padding-right:5px; 
+    padding-left:5px; 
+}
+.navbar ul li a:hover{
+    color: #15b000;
+}
+.navbar ul li.active > a {
+    color: #15b000;
+    font-weight: bold;
+    font-size: 12px;
+    border-left: 3px solid #15b000;
+    border-radius: 40px;
+}
+.iconStyle
+{
+    color: #15b000;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-container {
+  padding: 0 !important;
+}
+
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+}
+
+.menu {
+  padding-top: 7px;
+padding-bottom: 1px;
+background-color: #263238;
+}
+
+.fixed-top-2 {
+  margin-top: 56px;
+}
+
+.sticky-top {
+padding-top: 37px;
+position: fixed;
+top: 0;
+z-index: 1020;
+left: 0;
+right: 0;
+}
+
+
+
+#custom-search-form {
+  margin:0;
+  margin-top: 5px;
+  padding: 0;
+}
+
+#custom-search-form .search-query {
+  padding-right: 3px;
+  padding-right: 4px \9;
+  padding-left: 3px;
+  padding-left: 4px \9;
+  
+
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#custom-search-form button {
+  border: 0;
+  background: none;
+  
+  padding: 2px 5px;
+  margin-top: 2px;
+  position: relative;
+  left: -28px;
+  
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.search-query:focus + button {
+  z-index: 3;   
+}
+
+ul.dropdown-cart{
+  min-width:250px;
+}
+ul.dropdown-cart li .item{
+  display:block;
+  padding:3px 10px;
+  margin: 3px 0;
+}
+ul.dropdown-cart li .item:hover{
+  background-color:#f3f3f3;
+}
+ul.dropdown-cart li .item:after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+ul.dropdown-cart li .item-left{
+  float:left;
+}
+ul.dropdown-cart li .item-left img,
+ul.dropdown-cart li .item-left span.item-info{
+  float:left;
+}
+ul.dropdown-cart li .item-left span.item-info{
+  margin-left:10px;   
+}
+ul.dropdown-cart li .item-left span.item-info span{
+  display:block;
+}
+ul.dropdown-cart li .item-right{
+  float:right;
+}
+ul.dropdown-cart li .item-right button{
+  margin-top:14px;
+}
+
+/*footer*/
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#263238; min-height:250px; padding:10px 0px 25px 0px ; margin-top: 30px}
+.pt2 { 
+  padding-top:40px; 
+  margin-bottom:20px;
+  margin-top: 100px;
+}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+
+.wrapper-max {
+  max-width:1170px;
+  margin:0 auto !important
+ }
+
+ .menu__loupe-pos {
+  position:relative;
+  padding-left:0px;
+  padding-right:0px
+ }
+
+ .search {
+  height:75px !important;
+  padding-top:13px;
+  font-family:"Roboto",sans-serif;
+  font-size:16px;
+  border-top:1px solid #1b4771;
+  border-bottom:1px solid #1b4771;
+  background-color:#fff
+ }
+ .search__loupe {
+  border-left:1px solid #235789;
+  float:right;
+  height:45px
+ }
+ .search__loupe:focus,
+ .search__loupe:hover,
+ .search__loupe:active {
+  background-color:#235789;
+  padding-bottom:5px
+ }
+
+ .pad-right {
+  padding-right: 0 !important;
+}
+
+.pad-left {
+  padding-left: 0 !important;
+}
+
+.search-box {
+  height:46px;
+  border-top:1px solid #235789;
+  border-left:1px solid #235789;
+  border-bottom:1px solid #235789;
+  border-right:none
+ }
+
+ .search-button {
+  margin-left:-25px
+ }
+
+
+#search_form .button button {
+  height: 46px;
+  width: 46px;
+  float: left;
+  border: 1px solid #235789;
+}
+
+.search__loupe, 
+.search__loupe:active, 
+.search__loupe:focus {
+  background: #FFF url('components/cssoptions/icons/sign.png') center center no-repeat;
+  background-size: 25px 25px;
+  cursor: pointer !important;
+}
+
+#custom-search-input {
+  margin:0;
+  margin-top: 10px;
+  padding: 0;
+}
+
+#custom-search-input .search-query {
+  padding-right: 3px;
+  padding-right: 4px \9;
+  padding-left: 3px;
+  padding-left: 4px \9;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#custom-search-input button {
+  border: 0;
+  background: none;
+  /** belows styles are working good */
+  padding: 2px 5px;
+  margin-top: 2px;
+  position: relative;
+  left: -28px;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color:#D9230F;
+}
+
+.search-query:focus + button {
+  z-index: 3;   
+}
+
+.margins-opt {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.right-shopcart {
+  margin-left: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.right-shopcart .right-cart-icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}
+.right-cart-icon {
+  /* background-image: url("components/cssoptions/icons/cart.png"); */
+  background-position: 0 -2895px;
+  background-repeat: no-repeat;
+}
+
+.right-shopcart .right-cart-number {
+  background: #ff4747;
+  max-width: 25px;
+  min-width: 20px;
+  height: 20px;
+  color: #fff;
+  border-radius: 10px;
+  position: absolute;
+  top: -10px;
+  left: 62px;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  padding: 0 2px;
+}
+
+.show__basket a {
+  text-align:center
+ }
+
+ .basket__word .menu__cost {
+  float:right;
+ }
+
+.menu__cost {
+  color:#28A745;
+  text-align:right;
+  cursor:pointer
+ }
+ .menu__cost h1 {
+  padding-top:22px;
+  font-size:16px;
+  padding-bottom:12px
+ }
+
+ .menu__cost span {
+  display: block;
+  padding-top: 12px;
+  font-size: 18px;
+  color: #28A745;
+  margin-top: -10px;
+}
+
+ .menu__cost p {
+  font-family:"Roboto",sans-serif;
+  font-weight:500;
+  font-size:18px
+ }
+
+ .span_opt {
+   margin-top: -10px;
+ }
+
+ .span_spec {
+  margin-top: -10px;
+  display: block;
+  padding-top: 12px;
+  font-size: 18px;
+  color: #28A745;
+}
+
